@@ -1,9 +1,105 @@
+body{
+    font-family: "Montserrat";
+}
 #title{
     background-color: #ff4c68;
+    font-family: "Ubantu" !important;
+    color:#fff;
+}
+.container-fluid{
+    padding: 3% 15% !important;
+}
+.con-flu{
+padding-bottom: 10% !important;
+}
+
+h1{
+    font-family: "Montserrat-black" !important;
+    font-size: 3rem !important;
+    line-height: 1.5 !important;
+}
+.navbar{
+    padding: 0 0 4.5rem !important;
+}
+.nav-item{
+    padding: 0 18px !important;
+    }
+.nav-link{
+    font-size: 1.2rem !important;
+    font-family: "Montserrat-light" !important;
+}
+.navbar-brand{
+    font-size: 2.5rem !important;
+    font-family: "Ubuntu" !important;
+    font-weight: bold !important;
+}
+.btn{
+    margin: 5% 3% 5% 0;
+}
+.title-image{
+    transform: rotate(25deg);
+    width: 60%;
+    position: absolute !important;
+}
+.features-section{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+h3.features-section{
+    text-align: center !important;
+    font-size: 1.3rem !important;
+    font-weight: 850;
+}
+p.features-section{
+    text-align: center;
+    color: grey;
+}
+#features{
+    padding-top: 5%;
+    padding-bottom: 4%;
+    position: relative !important;
+    background-color: #fff !important;
+}
+.icon{
+    padding-left: 40%;
+    color: #ef8172;
+    padding-bottom: 10%;
+}
+.icon:hover{
+    color:#ff4c68;
+}
+#testimonials{
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+    
+}
+h2{
+    font-family: "Montserrat-bold" !important;
+    font-size: 3rem !important;
+    line-height: 1.5 !important;
+}
+.testimonial-image{
+    border-radius: 100%;
+    margin: 2%;
+    width: 10%;
+}
+#press{
+    background-color:#ff4c68;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+.press-testimonial{
+    width: 15%;
+    margin: 2%;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+.card-bodi{
+    background-color: #ff4c68 !important;
+    color: #fff;
+    text-align: center;
 
 }
-h1{
-    font-family: 'Montserrat-black', sans-serif;
-    font-size: 3rem;
-    line-height: 1.5;
-}
+
