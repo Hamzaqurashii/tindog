@@ -20,7 +20,7 @@ h1{
 }
 .navbar{
     padding: 0 0 4.5rem !important;
-    margin: 5rem !important;
+    margin: 1rem;
 }
 .dog{
     margin-top: 12rem !important;
@@ -40,8 +40,6 @@ h1{
     font-family: "Ubuntu" !important;
     font-weight: bold !important;
     color: darkslategrey !important;
-position: relative !important;
-z-index: 1;
 }
 .btn{
     margin: 5% 3% 5% 0;
