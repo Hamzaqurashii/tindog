@@ -20,6 +20,12 @@ h1{
 }
 .navbar{
     padding: 0 0 4.5rem !important;
+    margin: 5rem !important;
+}
+.dog{
+    margin-top: 12rem !important;
+    z-index: -1 !important;
+
 }
 .nav-item{
     padding: 0 18px !important;
@@ -27,11 +33,15 @@ h1{
 .nav-link{
     font-size: 1.2rem !important;
     font-family: "Montserrat-light" !important;
+    color: darkslategrey !important;
 }
 .navbar-brand{
     font-size: 2.5rem !important;
     font-family: "Ubuntu" !important;
     font-weight: bold !important;
+    color: darkslategrey !important;
+position: relative !important;
+z-index: 1;
 }
 .btn{
     margin: 5% 3% 5% 0;
@@ -102,4 +112,33 @@ h2{
     text-align: center;
 
 }
+.con-flu1{
+    text-align: center !important;
+    background-color: #ff4c68;
+    padding: 8% !important;
+    
+}
+.cta-sec{
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 800;
+}
+#footer{
+    text-align: center !important;
+    color: grey !important;
+    font-size: 1.3rem !important;
+    font-weight: 500;
+}
+.foot-flow{
+    margin: 20px 10px;
+    
+}
+    
 
+@media (max-width: 1028px){
+    .title-image{
+        position: static !important;
+        transform: rotate(0) !important;
+    }
+    #title{text-align: center; }
+}
